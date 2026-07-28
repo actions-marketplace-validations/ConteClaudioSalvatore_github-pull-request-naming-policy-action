@@ -1,6 +1,6 @@
 {
   "name": "github-pull-request-naming-policy-action",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A GitHub Action to verify if a pull request title or body contains a valid regex pattern.",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,14 @@
       "name": "Nick Nagel",
       "email": "nicklegan@github.com",
       "url": "https://github.com/nicklegan"
+    },
+    {
+      "name": "Claudio Salvatore Conte",
+      "email": "claudioconte51@gmail.com",
+      "url": "https://github.com/ConteClaudioSalvatore"
     }
   ],
-  "repository": "github:nicklegan/github-pull-request-naming-policy-action",
+  "repository": "github:ConteClaudioSalvatore/github-pull-request-naming-policy-action",
   "engines": {
     "node": ">=20",
     "npm": ">=10"
