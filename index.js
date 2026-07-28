@@ -25,18 +25,18 @@ function compileRegularExpressions(config) {
  * @type {import('./types').Config}
  */
 const titleCfg = {
-  regex: core.getInput('title-regex') ?? '',
-  flags: core.getInput('title-flags') ?? '',
-  errorMessage: core.getInput('title-error-message') ?? 'The pull request title must match the following regex pattern to be valid:'
+  regex: core.getMultilineInput('title-regex') ?? '',
+  flags: core.getMultilineInput('title-flags') ?? '',
+  errorMessage: core.getMultilineInput('title-error-message') ?? 'The pull request title must match the following regex pattern to be valid:'
 };
 
 /**
  * @type {import('./types').Config}
  */
 const bodyCfg = {
-  regex: core.getInput('body-regex') ?? '',
-  flags: core.getInput('body-flags') ?? '',
-  errorMessage: core.getInput('body-error-message') ?? 'The pull request body must match the following regex pattern to be valid:'
+  regex: core.getMultilineInput('body-regex') ?? '',
+  flags: core.getMultilineInput('body-flags') ?? '',
+  errorMessage: core.getMultilineInput('body-error-message') ?? 'The pull request body must match the following regex pattern to be valid:'
 };
 
 

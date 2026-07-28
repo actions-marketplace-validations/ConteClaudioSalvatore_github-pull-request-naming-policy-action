@@ -1,5 +1,5 @@
-name: GitHub Pull Request Naming Policy Action
-description: 'A GitHub Action to verify if a pull request title or body contains a valid regex pattern.'
+name: Multiple RegExp GitHub Pull Request Naming Policy Action
+description: 'A GitHub Action to verify if a pull request title or body contains one or more valid regex patterns.'
 
 inputs:
   title-regex:
@@ -22,7 +22,7 @@ inputs:
     required: false
 
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'dist/index.js'
 
 branding:
